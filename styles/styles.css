@@ -1,0 +1,74 @@
+/* Tipografía de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+/* Estilos generales */
+body {
+    background-color: #F4EDE3;
+    color: #3B2922;
+    font-family: 'Inter', sans-serif;
+ }
+/* Jerarquía tipográfica */
+   h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+   h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+   p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+/* Menú de navegación */
+.menu-navegacion ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+}
+.menu-navegacion a {
+    color: #3B2922;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+/* Efecto al pasar el mouse */
+.menu-navegacion a:hover {
+    color: #B8794D;
+}
+/* Encabezado */
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+}
+/* Contenido principal */
+.contenido-principal {
+    padding: 2rem;
+}
+/* Imágenes del sitio */
+.imagen-sitio {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+/* Secciones del sitio */
+.seccion {
+    margin-bottom: 3rem;
+}
+/* Pie de página */
+.pie-pagina {
+    background-color: #3B2922;
+    color: #F4EDE3;
+    padding: 2rem;
+}
+.pie-pagina a {
+    color: #F4EDE3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.pie-pagina a:hover {
+    color: #D9A77E;
+}
